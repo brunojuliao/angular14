@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TwindComponent } from './twind/twind.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TwindComponent
   ],
   imports: [
     BrowserModule,
